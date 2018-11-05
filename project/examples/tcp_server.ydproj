@@ -1,0 +1,106 @@
+ <object name="yy">
+  <property>
+   <item name="type" type="QString" value="debug"/>
+   <item name="path" type="QString" value="E:/YaoYa/Qt/build-YYDebug-Desktop_Qt_5_3_MinGW_32bit-Debug/tcp_server.ydproj"/>
+  </property>
+  <children>
+   <item name="main">
+    <property>
+     <item name="name" type="QString" value="TCP Server"/>
+     <item name="layout" type="QByteArray" value="AAAA/wAAAAEAAAACAAABMQAAAP0BAAAABQEAAAACAA=="/>
+    </property>
+    <children>
+     <item name="rx">
+      <property>
+       <item name="visible" type="bool" value="true"/>
+       <item name="format" type="QString" value="hex8"/>
+      </property>
+      <children>
+       <item name="ext">
+        <property>
+         <item name="visible" type="bool" value="true"/>
+         <item name="script" type="QString" value="log(&quot;Get data:&quot; + _rd);&#xa;_d.write([22,33]);"/>
+        </property>
+        <children/>
+       </item>
+      </children>
+     </item>
+     <item name="tx">
+      <property>
+       <item name="visible" type="bool" value="true"/>
+       <item name="format" type="QString" value="hex8"/>
+       <item name="interval" type="int" value="1000"/>
+       <item name="times" type="int" value="0"/>
+       <item name="value" type="QString" value=""/>
+      </property>
+      <children>
+       <item name="ext">
+        <property>
+         <item name="visible" type="bool" value="false"/>
+         <item name="file_name" type="QString" value=""/>
+         <item name="item_interval" type="int" value="500"/>
+         <item name="frame_interval" type="int" value="1000"/>
+         <item name="item1_name" type="QString" value=""/>
+         <item name="item1_value" type="QString" value=""/>
+         <item name="item2_name" type="QString" value=""/>
+         <item name="item2_value" type="QString" value=""/>
+         <item name="item3_name" type="QString" value=""/>
+         <item name="item3_value" type="QString" value=""/>
+         <item name="item4_name" type="QString" value=""/>
+         <item name="item4_value" type="QString" value=""/>
+         <item name="item5_name" type="QString" value=""/>
+         <item name="item5_value" type="QString" value=""/>
+         <item name="item6_name" type="QString" value=""/>
+         <item name="item6_value" type="QString" value=""/>
+         <item name="item7_name" type="QString" value=""/>
+         <item name="item7_value" type="QString" value=""/>
+         <item name="item8_name" type="QString" value=""/>
+         <item name="item8_value" type="QString" value=""/>
+         <item name="item9_name" type="QString" value=""/>
+         <item name="item9_value" type="QString" value=""/>
+         <item name="item10_name" type="QString" value=""/>
+         <item name="item10_value" type="QString" value=""/>
+         <item name="item11_name" type="QString" value=""/>
+         <item name="item11_value" type="QString" value=""/>
+         <item name="item12_name" type="QString" value=""/>
+         <item name="item12_value" type="QString" value=""/>
+         <item name="item13_name" type="QString" value=""/>
+         <item name="item13_value" type="QString" value=""/>
+         <item name="item14_name" type="QString" value=""/>
+         <item name="item14_value" type="QString" value=""/>
+         <item name="item15_name" type="QString" value=""/>
+         <item name="item15_value" type="QString" value=""/>
+         <item name="item16_name" type="QString" value=""/>
+         <item name="item16_value" type="QString" value=""/>
+         <item name="item17_name" type="QString" value=""/>
+         <item name="item17_value" type="QString" value=""/>
+         <item name="item18_name" type="QString" value=""/>
+         <item name="item18_value" type="QString" value=""/>
+         <item name="item19_name" type="QString" value=""/>
+         <item name="item19_value" type="QString" value=""/>
+         <item name="item20_name" type="QString" value=""/>
+         <item name="item20_value" type="QString" value=""/>
+         <item name="script" type="QString" value="log(&quot;Get data:&quot; + _rd);&#xa;_d.write([22,33]);"/>
+        </property>
+        <children/>
+       </item>
+      </children>
+     </item>
+    </children>
+   </item>
+   <item name="comm">
+    <property>
+     <item name="visible" type="bool" value="true"/>
+     <item name="type" type="QString" value="network"/>
+     <item name="net_type" type="QString" value="TCP server"/>
+     <item name="udp_lport" type="QString" value="1000"/>
+     <item name="udp_tip" type="QString" value="127.0.0.1"/>
+     <item name="udp_tport" type="QString" value="1001"/>
+     <item name="tcpc_server_ip" type="QString" value="127.0.0.1"/>
+     <item name="tcpc_server_port" type="QString" value="1000"/>
+     <item name="tcps_port" type="QString" value="1000"/>
+    </property>
+    <children/>
+   </item>
+  </children>
+ </object>

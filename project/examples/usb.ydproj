@@ -1,0 +1,102 @@
+ <object name="yy">
+  <property>
+   <item name="type" value="debug" type="QString"/>
+   <item name="path" value="/home/srls-elc/Code/Qt/YYDebug/examples/usb.ydproj" type="QString"/>
+  </property>
+  <children>
+   <item name="main">
+    <property>
+     <item name="name" value="USB" type="QString"/>
+     <item name="layout" value="AAAA/wAAAAEAAAACAAABVwAAAP0BAAAABQEAAAACAA==" type="QByteArray"/>
+    </property>
+    <children>
+     <item name="rx">
+      <property>
+       <item name="visible" value="true" type="bool"/>
+       <item name="format" value="hex32" type="QString"/>
+      </property>
+      <children>
+       <item name="ext">
+        <property>
+         <item name="visible" value="false" type="bool"/>
+         <item name="script" value="log(&quot;Get data:&quot; + _rd);&#xa;//_d.write([22,33]);" type="QString"/>
+        </property>
+        <children/>
+       </item>
+      </children>
+     </item>
+     <item name="tx">
+      <property>
+       <item name="visible" value="true" type="bool"/>
+       <item name="format" value="hex32" type="QString"/>
+       <item name="interval" value="1" type="int"/>
+       <item name="times" value="0" type="int"/>
+       <item name="value" value="87654301 87654311 87654321 87654331 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321 87654321" type="QString"/>
+      </property>
+      <children>
+       <item name="ext">
+        <property>
+         <item name="visible" value="false" type="bool"/>
+         <item name="file_name" value="" type="QString"/>
+         <item name="item_interval" value="500" type="int"/>
+         <item name="frame_interval" value="1000" type="int"/>
+         <item name="item1_name" value="" type="QString"/>
+         <item name="item1_value" value="" type="QString"/>
+         <item name="item2_name" value="" type="QString"/>
+         <item name="item2_value" value="" type="QString"/>
+         <item name="item3_name" value="" type="QString"/>
+         <item name="item3_value" value="" type="QString"/>
+         <item name="item4_name" value="" type="QString"/>
+         <item name="item4_value" value="" type="QString"/>
+         <item name="item5_name" value="" type="QString"/>
+         <item name="item5_value" value="" type="QString"/>
+         <item name="item6_name" value="" type="QString"/>
+         <item name="item6_value" value="" type="QString"/>
+         <item name="item7_name" value="" type="QString"/>
+         <item name="item7_value" value="" type="QString"/>
+         <item name="item8_name" value="" type="QString"/>
+         <item name="item8_value" value="" type="QString"/>
+         <item name="item9_name" value="" type="QString"/>
+         <item name="item9_value" value="" type="QString"/>
+         <item name="item10_name" value="" type="QString"/>
+         <item name="item10_value" value="" type="QString"/>
+         <item name="item11_name" value="" type="QString"/>
+         <item name="item11_value" value="" type="QString"/>
+         <item name="item12_name" value="" type="QString"/>
+         <item name="item12_value" value="" type="QString"/>
+         <item name="item13_name" value="" type="QString"/>
+         <item name="item13_value" value="" type="QString"/>
+         <item name="item14_name" value="" type="QString"/>
+         <item name="item14_value" value="" type="QString"/>
+         <item name="item15_name" value="" type="QString"/>
+         <item name="item15_value" value="" type="QString"/>
+         <item name="item16_name" value="" type="QString"/>
+         <item name="item16_value" value="" type="QString"/>
+         <item name="item17_name" value="" type="QString"/>
+         <item name="item17_value" value="" type="QString"/>
+         <item name="item18_name" value="" type="QString"/>
+         <item name="item18_value" value="" type="QString"/>
+         <item name="item19_name" value="" type="QString"/>
+         <item name="item19_value" value="" type="QString"/>
+         <item name="item20_name" value="" type="QString"/>
+         <item name="item20_value" value="" type="QString"/>
+         <item name="script" value="log(&quot;Get data:&quot; + _rd);&#xa;//_d.write([22,33]);" type="QString"/>
+        </property>
+        <children/>
+       </item>
+      </children>
+     </item>
+    </children>
+   </item>
+   <item name="comm">
+    <property>
+     <item name="visible" value="true" type="bool"/>
+     <item name="type" value="usb" type="QString"/>
+     <item name="id" value="0547:1002" type="QString"/>
+     <item name="out_ep" value="2.bulk.512" type="QString"/>
+     <item name="in_ep" value="6.bulk.512" type="QString"/>
+    </property>
+    <children/>
+   </item>
+  </children>
+ </object>
